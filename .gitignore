@@ -1,0 +1,42 @@
+
+@'
+# Secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+INTERVIEW.md
+
+# Local databases and uploaded documents
+*.sqlite3
+*.db
+uploads/
+data/private/
+'@ | Set-Content -Encoding utf8 .gitignore
